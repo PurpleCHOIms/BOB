@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
         sum += ntohl(a);
         fclose(fp);
     }
-    printf(" = (%d)%#010x", sum, sum);
+    printf(" = (%d)%#010x\", sum, sum);
     return 0;
 
 }
